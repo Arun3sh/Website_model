@@ -1,0 +1,142 @@
+﻿body {
+    background-color: white;
+    /*background-image: url('../../images/backgroundredhearts1.jpg');*/
+}
+.mainContainer{
+    width: 956px;
+    /*background-color: grey;
+    padding-left: 15%;*/
+    /*Height given for testing purpose
+    height: 800px;*/
+    margin: 0px auto;
+    /*Border given for testing purpose
+    border: 3px solid;
+    border-color: green;*/
+}
+@media only screen and (max-width: 1360px){
+    .mainContainer{
+        width: 70%;
+    }
+}
+#header {
+    background-color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+#header ul{
+    float: right;
+    margin: 0px auto;
+}
+#header ul li{
+    display: inline;
+    margin-right: 15px;
+}
+#header ul li a{
+    text-decoration: none;
+}
+#header ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#firstContent {
+    background-image: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+#firstContent p{
+    text-align: center;
+    font-family: Vivaldi;
+    font-size: 24px;
+    padding-top: 15px;
+}
+#giftRegistry{
+    width: 10%;
+    /*height: 130px;*/
+    text-align: center;
+    margin: 2%;
+    float: left;
+    /*padding-top: 20px;*/
+}
+#giftRegistry a{
+    text-decoration: none;
+}
+#giftRegistry img{
+    height: 80px;
+    width: 105px;
+}
+#secondContent{
+    float: left;
+    width: 43%;
+    /*padding-left: 2%;
+    background-color: palegreen;*/
+}
+#secondContent p{
+    text-align: center;
+    font-weight: 300;
+    margin: 4.5%;
+    line-height: 25px;
+}
+#thirdContent{
+    float: right;
+    width: 43%;
+    /*padding-right: 2%;
+    background-color: aquamarine;*/
+}
+#thirdContent p{
+    text-align: center;
+    font-weight: 300;
+    margin: 4.5%;
+    line-height: 25px;
+}
+@media screen and (max-width: 750px) {
+  #secondContent, #thirdContent {
+      width: 95%;
+  }
+  #secondContent p, #thirdContent p{
+      text-align:center;
+  }
+  
+}
+#venue{
+    width: 90px;
+    margin: 20px;
+    float: left;
+    padding-left: 45%;
+}
+#venue a{
+    text-align: center;
+    text-decoration: none;
+}
+#venue img{
+    margin-left: 10px;
+}
+#footer {
+    background-color: #936376;
+    /*height: 30px;*/
+    padding: 10px;
+    clear: both;
+}
+#footer ul{
+    float: left;
+    padding-left: 5px;
+    /*margin: 0px;*/
+}
+#footer ul li{
+    /*list-style: none;*/
+    display: inline;
+}
+#footer ul li a{
+    text-decoration: none;
+    padding: 5px;
+}
+#footer ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+#footer p{
+    text-align: right;
+}
