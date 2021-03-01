@@ -18,10 +18,10 @@
         <div class="mainContainer">
             <div id="header">
                 <ul>
-                    <li><a href="mrs_smith.aspx" title="Home">Home</a></li>
-                    <li><a href="mrs_smith.aspx" title="About US">About US</a></li>
-                    <li><a href="mrs_smith.aspx" title="Career">Career</a></li>
-                    <li><a href="mrs_smith.aspx" title="Contact US">Contact US</a></li>
+                    <li><a href="index.aspx" title="Home">Home</a></li>
+                    <li><a href="index.aspx" title="About US">About US</a></li>
+                    <li><a href="index.aspx" title="Career">Career</a></li>
+                    <li><a href="index.aspx" title="Contact US">Contact US</a></li>
                 </ul>
             </div>
             <div id="firstContent">
@@ -47,10 +47,10 @@
             </div>
             <div id="footer">
                 <ul>
-                    <li><a href="mrs_smith.aspx" title="Home">Home</a></li>
-                    <li><a href="mrs_smith.aspx" title="About US">About US</a></li>
-                    <li><a href="mrs_smith.aspx" title="Career">Career</a></li>
-                    <li><a href="mrs_smith.aspx" title="Contact US">Contact US</a></li>
+                    <li><a href="index.aspx" title="Home">Home</a></li>
+                    <li><a href="index.aspx" title="About US">About US</a></li>
+                    <li><a href="index.aspx" title="Career">Career</a></li>
+                    <li><a href="index.aspx" title="Contact US">Contact US</a></li>
                 </ul>
                 <p>Copyright ©2010 – 2021 Aruneshwaran All Rights Reserved.</p>
             </div>
